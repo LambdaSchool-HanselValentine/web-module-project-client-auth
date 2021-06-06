@@ -31,6 +31,7 @@ const Login = () => {
 
 	return (
 		<div className="login-form" onSubmit={submitHandler}>
+			<h1> Please login to see friends list</h1>
 			<form>
 				<input
 					type="text"
@@ -40,7 +41,7 @@ const Login = () => {
 					placeholder="Enter Username"
 				/>
 				<input
-					type="text"
+					type="password"
 					name="password"
 					value={formValues.password}
 					onChange={onChangeHandler}

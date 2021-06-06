@@ -19,3 +19,29 @@
 	height: 40px;
 	padding: 10px;
 }
+
+/* FRIENDS ELEMENT CSS */
+.friends-container {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+/* FRIEND CARD CSS */
+.friend-card {
+	height: 100px;
+	width: 50vw;
+	border: 1px solid black;
+	box-shadow: 5px 5px black;
+	margin: 1vh;
+}
+
+.friends-container button {
+	width: 100px;
+	height: 40px;
+	padding: 10px;
+	background-color: hotpink;
+}
