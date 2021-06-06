@@ -32,11 +32,15 @@
 
 /* FRIEND CARD CSS */
 .friend-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	height: 100px;
 	width: 50vw;
 	border: 1px solid black;
-	box-shadow: 5px 5px black;
-	margin: 1vh;
+	box-shadow: 8px 8px black;
+	margin: 2vh;
 }
 
 .friends-container button {
@@ -44,4 +48,5 @@
 	height: 40px;
 	padding: 10px;
 	background-color: hotpink;
+	margin: 30px;
 }
