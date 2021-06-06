@@ -47,10 +47,6 @@ const Login = () => {
 					placeholder="Enter Password"
 				/>
 				<button> Login </button>
-
-				{/* <Link to="/protected">
-					<button> Login </button>
-				</Link> */}
 			</form>
 		</div>
 	);
